@@ -1,0 +1,11 @@
+{
+  "name": "stylelint-config-jwilsson",
+  "version": "1.0.0",
+  "description": "jwilsson stylelint config",
+  "main": "index.js",
+  "repository": "jwilsson/stylelint-config",
+  "dependencies": {
+    "stylelint-config-standard": "^8.0.0"
+  },
+  "license": "MIT"
+}
