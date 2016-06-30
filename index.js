@@ -11,12 +11,15 @@ module.exports = {
     "declaration-block-no-duplicate-properties": true,
     "declaration-block-properties-order": "alphabetical",
     "declaration-block-semicolon-newline-after": "always",
+    "declaration-colon-newline-after": null,
     "declaration-colon-space-after": "always",
     "declaration-no-important": true,
     "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
     "function-url-quotes": "always",
-    "indentation": 4,
+    "indentation": [4, {
+        "indentInsideParens": "once"
+    }],
     "max-nesting-depth": 2,
     "media-feature-name-no-vendor-prefix": true,
     "property-no-vendor-prefix": true,
