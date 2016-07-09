@@ -16,6 +16,7 @@ module.exports = {
     "declaration-no-important": true,
     "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
+    "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "indentation": [4, {
         "indentInsideParens": "once"
@@ -27,6 +28,7 @@ module.exports = {
       "except": ["first-nested"],
       "ignore": ["after-comment"]
     }],
+    "selector-attribute-quotes": "always",
     "selector-max-compound-selectors": 3,
     "selector-no-id": true,
     "selector-no-qualifying-type": [true, {
