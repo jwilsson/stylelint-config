@@ -18,11 +18,10 @@ module.exports = {
     "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
-    "indentation": [4, {
-        "indentInsideParens": "once"
-    }],
+    "indentation": 4,
     "max-nesting-depth": 2,
     "media-feature-name-no-vendor-prefix": true,
+    "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "rule-nested-empty-line-before": ["always", {
       "except": ["first-nested"],
