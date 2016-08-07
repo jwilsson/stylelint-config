@@ -14,6 +14,10 @@ module.exports = {
     "declaration-colon-newline-after": null,
     "declaration-colon-space-after": "always",
     "declaration-no-important": true,
+    "declaration-property-value-blacklist": {
+        "/^border/": ["none"],
+        "padding": ["auto"]
+    },
     "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
