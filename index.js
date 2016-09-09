@@ -2,6 +2,9 @@ module.exports = {
   "extends": "stylelint-config-standard",
   "rules": {
     "at-rule-no-vendor-prefix": true,
+    "block-closing-brace-newline-after": ["always", {
+      "ignoreAtRules": ["define-mixin"]
+    }],
     "block-closing-brace-newline-before": "always",
     "block-no-single-line": true,
     "block-opening-brace-newline-after": "always",
@@ -39,6 +42,9 @@ module.exports = {
     }],
     "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
+    "selector-type-no-unknown": [true, {
+      "ignoreTypes": ["/^%/"]
+    }],
     "string-quotes": "single",
     "time-no-imperceptible": true,
     "value-keyword-case": "lower",
