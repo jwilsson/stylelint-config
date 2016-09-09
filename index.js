@@ -3,7 +3,7 @@ module.exports = {
   "rules": {
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": ["always", {
-      "ignoreAtRules": ["define-mixin"]
+      "ignoreAtRules": ["/^[a-z]*-mixin/", "include"]
     }],
     "block-closing-brace-newline-before": "always",
     "block-no-single-line": true,
