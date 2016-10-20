@@ -36,6 +36,7 @@ module.exports = {
     }],
     "selector-attribute-quotes": "always",
     "selector-max-compound-selectors": 3,
+    "selector-no-empty": true,
     "selector-no-id": true,
     "selector-no-qualifying-type": [true, {
       "ignore": ["attribute"]
