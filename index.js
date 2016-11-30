@@ -47,6 +47,7 @@ module.exports = {
       "ignoreTypes": ["/^%/"]
     }],
     "string-quotes": "single",
+    "stylelint-disable-reason": "always-after",
     "time-no-imperceptible": true,
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": true
