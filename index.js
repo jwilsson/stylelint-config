@@ -6,13 +6,11 @@ module.exports = {
       "ignoreAtRules": ["/^[a-z]*-mixin/", "include"]
     }],
     "block-closing-brace-newline-before": "always",
-    "block-no-single-line": true,
     "block-opening-brace-newline-after": "always",
     "block-opening-brace-space-before": "always",
     "color-hex-length": "long",
     "color-named": "never",
     "declaration-block-no-duplicate-properties": true,
-    "declaration-block-properties-order": "alphabetical",
     "declaration-block-semicolon-newline-after": "always",
     "declaration-colon-newline-after": null,
     "declaration-colon-space-after": "always",
@@ -36,7 +34,6 @@ module.exports = {
     }],
     "selector-attribute-quotes": "always",
     "selector-max-compound-selectors": 3,
-    "selector-no-empty": true,
     "selector-no-id": true,
     "selector-no-qualifying-type": [true, {
       "ignore": ["attribute"]
@@ -47,7 +44,6 @@ module.exports = {
       "ignoreTypes": ["/^%/"]
     }],
     "string-quotes": "single",
-    "stylelint-disable-reason": "always-after",
     "time-no-imperceptible": true,
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": true
