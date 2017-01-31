@@ -1,5 +1,8 @@
 module.exports = {
   "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order"
+  ],
   "rules": {
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": ["always", {
@@ -46,6 +49,8 @@ module.exports = {
     "string-quotes": "single",
     "time-no-imperceptible": true,
     "value-keyword-case": "lower",
-    "value-no-vendor-prefix": true
+    "value-no-vendor-prefix": true,
+
+    "order/declaration-block-properties-alphabetical-order": true
   }
 };
