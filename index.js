@@ -47,7 +47,7 @@ module.exports = {
       "ignoreTypes": ["/^%/"]
     }],
     "string-quotes": "single",
-    "time-no-imperceptible": true,
+    "time-min-milliseconds": 100,
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": true,
 
