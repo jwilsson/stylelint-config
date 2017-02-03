@@ -31,7 +31,7 @@ module.exports = {
     "media-feature-name-no-vendor-prefix": true,
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
-    "rule-nested-empty-line-before": ["always", {
+    "rule-empty-line-before": ["always", {
       "except": ["first-nested"],
       "ignore": ["after-comment"]
     }],
