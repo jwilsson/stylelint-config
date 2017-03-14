@@ -1,12 +1,15 @@
+const namePattern = /[a-z-]+/;
+
 module.exports = {
   "extends": "stylelint-config-standard",
   "plugins": [
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-scss",
   ],
   "rules": {
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": ["always", {
-      "ignoreAtRules": ["/^[a-z]*-mixin/", "include"]
+      "ignoreAtRules": ["/^[a-z]*-mixin/", "include"],
     }],
     "block-closing-brace-newline-before": "always",
     "block-opening-brace-newline-after": "always",
@@ -20,7 +23,7 @@ module.exports = {
     "declaration-no-important": true,
     "declaration-property-value-blacklist": {
         "/^border/": ["none"],
-        "padding": ["auto"]
+        "padding": ["auto"],
     },
     "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
@@ -33,24 +36,36 @@ module.exports = {
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": ["always", {
       "except": ["first-nested"],
-      "ignore": ["after-comment"]
+      "ignore": ["after-comment"],
     }],
     "selector-attribute-quotes": "always",
     "selector-max-compound-selectors": 3,
     "selector-no-id": true,
     "selector-no-qualifying-type": [true, {
-      "ignore": ["attribute"]
+      "ignore": ["attribute"],
     }],
     "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
     "selector-type-no-unknown": [true, {
-      "ignoreTypes": ["/^%/"]
+      "ignoreTypes": ["/^%/"],
     }],
     "string-quotes": "single",
     "time-min-milliseconds": 100,
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": true,
 
-    "order/declaration-block-properties-alphabetical-order": true
-  }
+    "order/declaration-block-properties-alphabetical-order": true,
+
+    "scss/at-extend-no-missing-placeholder": true,
+    "scss/at-function-pattern": namePattern,
+    "scss/at-mixin-argumentless-call-parentheses": "always",
+    "scss/at-mixin-pattern": namePattern,
+    "scss/dollar-variable-colon-space-after": "always",
+    "scss/dollar-variable-colon-space-before": "never",
+    "scss/dollar-variable-pattern": namePattern,
+    "scss/double-slash-comment-whitespace-inside": "always",
+    "scss/operator-no-unspaced": true,
+    "scss/percent-placeholder-pattern": namePattern,
+    "scss/selector-no-redundant-nesting-selector": true,
+  },
 };
