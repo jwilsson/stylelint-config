@@ -8,6 +8,7 @@ module.exports = {
   ],
   "rules": {
     "at-rule-no-vendor-prefix": true,
+    "at-rule-semicolon-space-before": "never",
     "block-closing-brace-newline-after": ["always", {
       "ignoreAtRules": ["/^[a-z]*-mixin/", "include"],
     }],
