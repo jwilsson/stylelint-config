@@ -55,7 +55,7 @@ module.exports = {
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": true,
 
-    "order/declaration-block-properties-alphabetical-order": true,
+    "order/properties-alphabetical-order": true,
 
     "scss/at-extend-no-missing-placeholder": true,
     "scss/at-function-pattern": namePattern,

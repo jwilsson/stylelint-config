@@ -6,7 +6,7 @@
   "repository": "jwilsson/stylelint-config",
   "dependencies": {
     "stylelint-config-standard": "^16.0.0",
-    "stylelint-order": "^0.2.2",
+    "stylelint-order": "^0.4.3",
     "stylelint-scss": "^1.4.3"
   },
   "license": "MIT"
