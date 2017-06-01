@@ -17,6 +17,10 @@ module.exports = {
     "block-opening-brace-space-before": "always",
     "color-hex-length": "long",
     "color-named": "never",
+    "custom-property-empty-line-before": ["always", {
+        "except": ["after-comment", "after-custom-property", "first-nested"],
+    }],
+    "custom-property-pattern": namePattern,
     "declaration-block-no-duplicate-properties": true,
     "declaration-block-semicolon-newline-after": "always",
     "declaration-colon-newline-after": null,
