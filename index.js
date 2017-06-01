@@ -4,7 +4,6 @@ module.exports = {
   "extends": "stylelint-config-standard",
   "plugins": [
     "stylelint-order",
-    "stylelint-scss",
   ],
   "rules": {
     "at-rule-no-vendor-prefix": true,
@@ -60,17 +59,5 @@ module.exports = {
     "value-no-vendor-prefix": true,
 
     "order/properties-alphabetical-order": true,
-
-    "scss/at-extend-no-missing-placeholder": true,
-    "scss/at-function-pattern": namePattern,
-    "scss/at-mixin-argumentless-call-parentheses": "always",
-    "scss/at-mixin-pattern": namePattern,
-    "scss/dollar-variable-colon-space-after": "always",
-    "scss/dollar-variable-colon-space-before": "never",
-    "scss/dollar-variable-pattern": namePattern,
-    "scss/double-slash-comment-whitespace-inside": "always",
-    "scss/operator-no-unspaced": true,
-    "scss/percent-placeholder-pattern": namePattern,
-    "scss/selector-no-redundant-nesting-selector": true,
   },
 };
