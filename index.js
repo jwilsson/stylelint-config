@@ -44,11 +44,11 @@ module.exports = {
     }],
     "selector-attribute-quotes": "always",
     "selector-max-compound-selectors": 3,
-    "selector-no-id": true,
+    "selector-max-id": 0,
     "selector-no-qualifying-type": [true, {
       "ignore": ["attribute"],
     }],
-    "selector-no-universal": true,
+    "selector-max-universal": 0,
     "selector-no-vendor-prefix": true,
     "selector-type-no-unknown": [true, {
       "ignoreTypes": ["/^%/"],
