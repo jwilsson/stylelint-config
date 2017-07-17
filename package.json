@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "jwilsson/stylelint-config",
   "dependencies": {
-    "stylelint-config-standard": "^16.0.0",
+    "stylelint-config-standard": "^17.0.0",
     "stylelint-order": "^0.5.0",
     "stylelint-scss": "^1.4.3"
   },

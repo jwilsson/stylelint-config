@@ -6,6 +6,7 @@ module.exports = {
     "stylelint-order",
   ],
   "rules": {
+    "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-space-before": "never",
     "block-closing-brace-newline-after": ["always", {
