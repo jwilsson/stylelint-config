@@ -3,7 +3,6 @@ const namePattern = /[a-z-]+/;
 module.exports = {
   "extends": "./index.js",
   "plugins": [
-    "stylelint-order",
     "stylelint-scss",
   ],
   "rules": {
@@ -11,6 +10,7 @@ module.exports = {
     "scss/at-function-pattern": namePattern,
     "scss/at-mixin-argumentless-call-parentheses": "always",
     "scss/at-mixin-pattern": namePattern,
+    "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
     "scss/dollar-variable-pattern": namePattern,
