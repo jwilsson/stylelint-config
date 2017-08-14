@@ -24,7 +24,6 @@ module.exports = {
     "declaration-block-no-duplicate-properties": true,
     "declaration-block-semicolon-newline-after": "always",
     "declaration-colon-newline-after": null,
-    "declaration-colon-space-after": "always",
     "declaration-no-important": true,
     "declaration-property-value-blacklist": {
         "/^border/": ["none"],
