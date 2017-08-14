@@ -50,6 +50,9 @@ module.exports = {
     }],
     "selector-max-universal": 0,
     "selector-no-vendor-prefix": true,
+    "selector-pseudo-class-no-unknown": [true, {
+        "ignorePseudoClasses": "global",
+    }],
     "selector-type-no-unknown": [true, {
       "ignoreTypes": ["/^%/"],
     }],
