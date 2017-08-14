@@ -1,4 +1,4 @@
-const namePattern = /[a-z-]+/;
+const namePattern = /^[a-z]+([a-z0-9-]+[a-z0-9]+)?$/;
 
 module.exports = {
   "extends": "./index.js",
