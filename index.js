@@ -36,7 +36,9 @@ module.exports = {
     "indentation": 4,
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": true,
-    "property-no-unknown": true,
+    "property-no-unknown": [true, {
+        "ignoreProperties": ["composes"],
+    }],
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": ["always", {
       "except": ["first-nested"],
@@ -51,7 +53,7 @@ module.exports = {
     "selector-max-universal": 0,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-no-unknown": [true, {
-        "ignorePseudoClasses": "global",
+        "ignorePseudoClasses": ["global", "local"],
     }],
     "selector-type-no-unknown": [true, {
       "ignoreTypes": ["/^%/"],
