@@ -6,9 +6,12 @@ module.exports = {
     "stylelint-scss",
   ],
   "rules": {
+    "scss/at-else-if-parentheses-space-before": "always",
     "scss/at-extend-no-missing-placeholder": true,
+    "scss/at-function-parentheses-space-before": "always",
     "scss/at-function-pattern": namePattern,
     "scss/at-mixin-argumentless-call-parentheses": "always",
+    "scss/at-mixin-parentheses-space-before": "always",
     "scss/at-mixin-pattern": namePattern,
     "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-colon-space-after": "always",
