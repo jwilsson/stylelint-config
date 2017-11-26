@@ -22,6 +22,7 @@ module.exports = {
     }],
     "custom-property-pattern": namePattern,
     "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-redundant-longhand-properties": true,
     "declaration-block-semicolon-newline-after": "always",
     "declaration-colon-newline-after": null,
     "declaration-no-important": true,
@@ -58,6 +59,7 @@ module.exports = {
     "selector-type-no-unknown": [true, {
       "ignoreTypes": ["/^%/"],
     }],
+    "shorthand-property-no-redundant-values": true,
     "string-quotes": "single",
     "time-min-milliseconds": 100,
     "value-keyword-case": "lower",
