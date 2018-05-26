@@ -20,6 +20,7 @@ module.exports = {
     "scss/dollar-variable-colon-space-before": "never",
     "scss/dollar-variable-pattern": namePattern,
     "scss/double-slash-comment-whitespace-inside": "always",
+    "scss/no-duplicate-dollar-variables": true,
     "scss/operator-no-unspaced": true,
     "scss/percent-placeholder-pattern": namePattern,
     "scss/selector-no-redundant-nesting-selector": true,
