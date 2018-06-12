@@ -30,7 +30,7 @@ module.exports = {
         "/^border/": ["none"],
         "padding": ["auto"],
     },
-    "font-family-name-quotes": "always-unless-keyword",
+    "font-family-name-quotes": "always-where-recommended",
     "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
