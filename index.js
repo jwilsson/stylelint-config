@@ -3,6 +3,7 @@ const namePattern = /^[a-z]+([a-z0-9-]+[a-z0-9]+)?$/;
 module.exports = {
   "extends": "stylelint-config-standard",
   "plugins": [
+    "stylelint-declaration-block-no-ignored-properties",
     "stylelint-order",
   ],
   "rules": {
@@ -66,5 +67,6 @@ module.exports = {
     "value-no-vendor-prefix": true,
 
     "order/properties-alphabetical-order": true,
+    "plugin/declaration-block-no-ignored-properties": true,
   },
 };
