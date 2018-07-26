@@ -36,6 +36,7 @@ module.exports = {
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "indentation": 4,
+    "linebreaks": "unix",
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": true,
     "property-no-unknown": [true, {
