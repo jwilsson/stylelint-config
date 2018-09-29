@@ -39,6 +39,7 @@ module.exports = {
     "linebreaks": "unix",
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": true,
+    "no-empty-first-line": true,
     "property-no-unknown": [true, {
         "ignoreProperties": ["composes"],
     }],
