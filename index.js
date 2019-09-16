@@ -33,7 +33,6 @@ module.exports = {
     },
     "font-family-name-quotes": "always-where-recommended",
     "font-weight-notation": "numeric",
-    "function-calc-no-invalid": true,
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "indentation": 4,
@@ -66,6 +65,7 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
     "string-quotes": "single",
     "time-min-milliseconds": 100,
+    "unicode-bom": true,
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": true,
 
