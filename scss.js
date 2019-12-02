@@ -23,6 +23,7 @@ module.exports = {
     "scss/double-slash-comment-whitespace-inside": "always",
     "scss/function-unquote-no-unquoted-strings-inside": true,
     "scss/no-duplicate-dollar-variables": true,
+    "scss/no-duplicate-mixins": true,
     "scss/operator-no-unspaced": true,
     "scss/percent-placeholder-pattern": namePattern,
     "scss/selector-no-redundant-nesting-selector": true,
