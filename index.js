@@ -66,7 +66,6 @@ module.exports = {
     "string-quotes": "single",
     "time-min-milliseconds": 100,
     "unicode-bom": true,
-    "value-keyword-case": "lower",
     "value-no-vendor-prefix": true,
 
     "order/properties-alphabetical-order": true,
