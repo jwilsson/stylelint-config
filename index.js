@@ -7,6 +7,7 @@ module.exports = {
     "stylelint-order",
   ],
   "rules": {
+    "alpha-value-notation": "percentage",
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-space-before": "never",
@@ -16,6 +17,7 @@ module.exports = {
     "block-closing-brace-newline-before": "always",
     "block-opening-brace-newline-after": "always",
     "block-opening-brace-space-before": "always",
+    "color-function-notation": "modern",
     "color-hex-length": "long",
     "color-named": "never",
     "custom-property-empty-line-before": ["always", {
@@ -35,6 +37,7 @@ module.exports = {
     "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
+    "hue-degree-notation": "angle",
     "indentation": 4,
     "linebreaks": "unix",
     "max-nesting-depth": 3,
