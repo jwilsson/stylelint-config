@@ -21,7 +21,7 @@ module.exports = {
     "color-hex-length": "long",
     "color-named": "never",
     "custom-property-empty-line-before": ["always", {
-        "except": ["after-comment", "after-custom-property", "first-nested"],
+      "except": ["after-comment", "after-custom-property", "first-nested"],
     }],
     "custom-property-pattern": namePattern,
     "declaration-block-no-duplicate-properties": true,
@@ -30,8 +30,8 @@ module.exports = {
     "declaration-colon-newline-after": null,
     "declaration-no-important": true,
     "declaration-property-value-blacklist": {
-        "/^border/": ["none"],
-        "padding": ["auto"],
+      "/^border/": ["none"],
+      "padding": ["auto"],
     },
     "font-family-name-quotes": "always-where-recommended",
     "font-weight-notation": "numeric",
@@ -44,7 +44,7 @@ module.exports = {
     "media-feature-name-no-vendor-prefix": true,
     "no-empty-first-line": true,
     "property-no-unknown": [true, {
-        "ignoreProperties": ["composes"],
+      "ignoreProperties": ["composes"],
     }],
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": ["always", {
@@ -60,7 +60,7 @@ module.exports = {
     "selector-max-universal": 0,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-no-unknown": [true, {
-        "ignorePseudoClasses": ["global", "local"],
+      "ignorePseudoClasses": ["global", "local"],
     }],
     "selector-type-no-unknown": [true, {
       "ignoreTypes": ["/^%/"],
