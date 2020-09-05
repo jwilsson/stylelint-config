@@ -29,7 +29,7 @@ module.exports = {
     "declaration-block-semicolon-newline-after": "always",
     "declaration-colon-newline-after": null,
     "declaration-no-important": true,
-    "declaration-property-value-blacklist": {
+    "declaration-property-value-disallowed-list": {
       "/^border/": ["none"],
       "padding": ["auto"],
     },
