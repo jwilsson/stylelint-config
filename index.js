@@ -43,9 +43,7 @@ module.exports = {
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": true,
     "no-empty-first-line": true,
-    "property-no-unknown": [true, {
-      "ignoreProperties": ["composes"],
-    }],
+    "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": ["always", {
       "except": ["first-nested"],
