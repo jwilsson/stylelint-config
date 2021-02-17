@@ -1,0 +1,19 @@
+{
+  "name": "@jwilsson/stylelint-config",
+  "version": "5.0.0",
+  "description": "jwilsson stylelint config",
+  "main": "index.js",
+  "repository": "jwilsson/stylelint-config",
+  "dependencies": {
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.0.0",
+    "stylelint-order": "^4.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.10.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

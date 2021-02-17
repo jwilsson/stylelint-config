@@ -4,14 +4,8 @@
   "description": "jwilsson stylelint config",
   "main": "index.js",
   "repository": "jwilsson/stylelint-config",
-  "dependencies": {
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.0.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.17.0"
-  },
-  "peerDependencies": {
-    "stylelint": "^13.10.0"
+  "devDependencies": {
+    "lerna": "^3.22.1"
   },
   "license": "MIT"
 }
