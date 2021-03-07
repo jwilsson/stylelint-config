@@ -1,11 +1,11 @@
 {
   "name": "@jwilsson/stylelint-config-scss",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "description": "jwilsson stylelint config",
   "main": "index.js",
   "repository": "jwilsson/stylelint-config",
   "dependencies": {
-    "@jwilsson/stylelint-config": "^5.0.1",
+    "@jwilsson/stylelint-config": "^5.1.0",
     "stylelint-scss": "^3.17.0"
   },
   "peerDependencies": {
