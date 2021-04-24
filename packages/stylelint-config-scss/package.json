@@ -9,12 +9,9 @@
     "stylelint-scss": "^3.17.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.10.0"
+    "stylelint": "^13.13.0"
   },
   "license": "MIT",
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
   "publishConfig": {
     "access": "public"
   }
