@@ -2,13 +2,17 @@
   "name": "stylelint-config-jwilsson",
   "description": "jwilsson stylelint config",
   "repository": "jwilsson/stylelint-config",
+  "license": "MIT",
   "scripts": {
+    "prettier": "prettier packages/**/*.js --write",
     "install-all": "lerna exec --no-bail -- npm install --package-lock=false",
     "outdated-all": "lerna exec --no-bail -- npm outdated",
     "update-all": "lerna exec --no-bail -- npm update"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@jwilsson/prettier-config": "^7.2.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1"
   },
-  "license": "MIT"
+  "prettier": "@jwilsson/prettier-config"
 }
