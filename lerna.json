@@ -1,6 +1,10 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  },
   "version": "6.1.0"
 }
