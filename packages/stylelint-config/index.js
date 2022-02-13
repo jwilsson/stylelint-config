@@ -28,6 +28,7 @@ module.exports = {
             'padding': ['auto'],
         },
         'font-weight-notation': 'numeric',
+        'function-no-unknown': true,
         'function-url-no-scheme-relative': true,
         'indentation': 4,
         'linebreaks': 'unix',
