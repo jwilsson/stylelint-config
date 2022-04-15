@@ -2,6 +2,7 @@ module.exports = {
     extends: ['@jwilsson/stylelint-config', 'stylelint-config-standard-scss'],
     plugins: ['stylelint-scss'],
     rules: {
+        'function-no-unknown': null,
         'selector-type-no-unknown': [
             true,
             {
@@ -27,6 +28,7 @@ module.exports = {
                 ignore: ['comments'],
             },
         ],
+        'scss/function-no-unknown': true,
         'scss/no-duplicate-dollar-variables': true,
         'scss/selector-no-redundant-nesting-selector': true,
         'scss/selector-no-union-class-name': true,
