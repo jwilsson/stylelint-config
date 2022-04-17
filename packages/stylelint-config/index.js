@@ -43,13 +43,14 @@ module.exports = {
         ],
         'selector-max-compound-selectors': 3,
         'selector-max-id': 0,
+        'selector-max-universal': 0,
         'selector-no-qualifying-type': [
             true,
             {
                 ignore: ['attribute'],
             },
         ],
-        'selector-max-universal': 0,
+        'selector-not-notation': 'complex',
         'string-quotes': 'single',
         'time-min-milliseconds': 100,
         'unicode-bom': true,
