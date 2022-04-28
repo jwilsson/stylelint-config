@@ -30,6 +30,7 @@ module.exports = {
         'font-weight-notation': 'numeric',
         'function-url-no-scheme-relative': true,
         'indentation': 4,
+        'keyframe-block-no-duplicate-selectors': true,
         'linebreaks': 'unix',
         'max-line-length': null,
         'max-nesting-depth': 3,
