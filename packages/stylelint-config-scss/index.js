@@ -2,7 +2,6 @@ module.exports = {
     extends: ['@jwilsson/stylelint-config', 'stylelint-config-standard-scss'],
     plugins: ['stylelint-scss'],
     rules: {
-        'function-no-unknown': null,
         'selector-type-no-unknown': [
             true,
             {
