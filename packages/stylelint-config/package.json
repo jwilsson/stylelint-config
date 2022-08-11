@@ -1,6 +1,6 @@
 {
     "name": "@jwilsson/stylelint-config",
-    "version": "6.4.0",
+    "version": "6.5.0",
     "description": "jwilsson stylelint config",
     "main": "index.js",
     "repository": "jwilsson/stylelint-config",
