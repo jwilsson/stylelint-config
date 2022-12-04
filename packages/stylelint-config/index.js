@@ -34,6 +34,7 @@ module.exports = {
         'linebreaks': 'unix',
         'max-line-length': null,
         'max-nesting-depth': 3,
+        'media-feature-range-notation': 'context',
         'number-max-precision': null,
         'rule-empty-line-before': [
             'always',
