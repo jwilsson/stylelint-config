@@ -5,12 +5,12 @@
     "main": "index.js",
     "repository": "jwilsson/stylelint-config",
     "dependencies": {
-        "stylelint-config-standard": "^29.0.0",
+        "stylelint-config-standard": "^30.0.0",
         "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
-        "stylelint-order": "^5.0.0"
+        "stylelint-order": "^6.0.0"
     },
     "peerDependencies": {
-        "stylelint": "^14.16.0"
+        "stylelint": "^15.1.0"
     },
     "license": "MIT"
 }
