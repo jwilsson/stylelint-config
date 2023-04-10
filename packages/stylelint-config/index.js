@@ -14,7 +14,6 @@ module.exports = {
         'function-url-no-scheme-relative': true,
         'keyframe-block-no-duplicate-selectors': true,
         'max-nesting-depth': 3,
-        'media-feature-range-notation': 'context',
         'number-max-precision': null,
         'selector-max-compound-selectors': 3,
         'selector-max-id': 0,
